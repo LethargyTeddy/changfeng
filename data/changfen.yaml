@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-02-25 00:05:44
+# 创建时间：2023-02-25 09:56:27
 # 使用模版：V2RaySE 默认模版
 # 节点数量：10
 ####################################
@@ -21,109 +21,109 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"🇯🇵_JP_日本","type":"vmess","server":"152.69.206.73","port":12794,"cipher":"auto","uuid":"52768552-c2b2-4460-89f1-e740cc145b99","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"🇹🇼_TW_台湾","type":"vmess","server":"tw2.sanfen001.pics","port":443,"cipher":"auto","uuid":"5cd940ef-5f62-4afe-9464-ec89e8c070b2","alterId":0,"tls":true,"skip-cert-verify":true,"network":""}
-  - {"name":"🇺🇸_US_美国_1","type":"vmess","server":"23.224.191.5","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"🇫🇷_FR_法国","type":"vmess","server":"51.38.99.96","port":443,"cipher":"auto","uuid":"b7793807-b6bb-4827-aaec-d41a8817110a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"🇸🇬_SG_新加坡","type":"vmess","server":"202.79.172.53","port":443,"cipher":"auto","uuid":"30216206-14b7-40e7-995d-61c1219ba584","alterId":64,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"🇭🇰_HK_香港","type":"vmess","server":"43.155.102.33","port":50028,"cipher":"auto","uuid":"4592247e-1528-4943-8bf3-cd9bb58b31c0","alterId":64,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"🇨🇳_CN_中国->🇹🇼_TW_台湾","type":"ss","server":"14.29.124.168","port":24006,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
-  - {"name":"🇺🇸_US_美国_2","type":"trojan","server":"hk01.shenzhouplus.cf","port":10007,"udp":true,"password":"623d6c1ffc2a4f4f8eb7575c45429df5","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国","type":"trojan","server":"v01.gutingting.com","port":20224,"udp":true,"password":"2acbae30-b409-4be6-9a11-15cf7949bfb7","sni":"v2usa01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳_CN_中国","type":"vmess","server":"36.134.16.190","port":11023,"cipher":"auto","uuid":"8c042a38-71c1-1dcb-00df-54880236e0dc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳_CN_中国","type":"trojan","server":"120.226.39.25","port":19231,"udp":true,"password":"0b2d98a4-25bc-3d9f-9694-9d1e929de8dd","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本","type":"ssr","server":"42.157.195.246","port":12127,"password":"68xdgu9eyif","cipher":"aes-256-cfb","obfs":"http_simple","protocol":"auth_aes128_sha1","obfs-param":"0f099600777.v23f7nM0","protocol-param":"0f099600777.v23f7nM0"}
+  - {"name":"🇯🇵_JP_日本","type":"trojan","server":"agroup.node1.t.nodelist-gfwairport1.download","port":50001,"udp":true,"password":"26188b3e-c28e-4230-8bee-53d77ff5ff49","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_US_美国_1","type":"vmess","server":"us-dp.sharecentre.online","port":443,"cipher":"none","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"us-dp.sharecentre.online"}}}
+  - {"name":"🇺🇸_US_美国_2","type":"vmess","server":"103.21.244.195","port":443,"cipher":"auto","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"lg1.trump2023.us"}}}
+  - {"name":"🇺🇸_US_美国->🇫🇷_FR_法国_1","type":"vmess","server":"172.67.199.34","port":443,"cipher":"auto","uuid":"2b214122-1906-428a-bbb7-a039cbb7cd5c","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/9JZFDTKE","headers":{"host":"fr1.trump2023.org"}}}
+  - {"name":"🇨🇦_CA_加拿大_1","type":"vmess","server":"51.161.35.200","port":443,"cipher":"auto","uuid":"9ec0fa0b-c50d-4ddf-a2d2-c98298641e96","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"🇨🇳_CN_中国->🇰🇷_KR_韩国","type":"trojan","server":"v01.gutingting.com","port":30056,"udp":true,"password":"61c6ceee-ee4f-475f-867d-dcfda15490fb","sni":"v1kr01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_US_美国->🇫🇷_FR_法国_2","type":"vmess","server":"eu-3.youngns.ml","port":443,"cipher":"auto","uuid":"df69bf7b-7ad5-44d3-a4f0-203f347ed9d0","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"🇨🇦_CA_加拿大_2","type":"ss","server":"51.161.118.38","port":800,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇯🇵_JP_日本
-      - 🇹🇼_TW_台湾
-      - 🇺🇸_US_美国_1
-      - 🇫🇷_FR_法国
-      - 🇸🇬_SG_新加坡
-      - 🇭🇰_HK_香港
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾
-      - 🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
       - 🇨🇳_CN_中国
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇯🇵_JP_日本
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_1
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_2
+      - 🇨🇦_CA_加拿大_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵_JP_日本
-      - 🇹🇼_TW_台湾
-      - 🇺🇸_US_美国_1
-      - 🇫🇷_FR_法国
-      - 🇸🇬_SG_新加坡
-      - 🇭🇰_HK_香港
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾
-      - 🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
       - 🇨🇳_CN_中国
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇯🇵_JP_日本
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_1
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_2
+      - 🇨🇦_CA_加拿大_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵_JP_日本
-      - 🇹🇼_TW_台湾
-      - 🇺🇸_US_美国_1
-      - 🇫🇷_FR_法国
-      - 🇸🇬_SG_新加坡
-      - 🇭🇰_HK_香港
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾
-      - 🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
       - 🇨🇳_CN_中国
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇯🇵_JP_日本
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_1
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_2
+      - 🇨🇦_CA_加拿大_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇯🇵_JP_日本
-      - 🇹🇼_TW_台湾
-      - 🇺🇸_US_美国_1
-      - 🇫🇷_FR_法国
-      - 🇸🇬_SG_新加坡
-      - 🇭🇰_HK_香港
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾
-      - 🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
       - 🇨🇳_CN_中国
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇯🇵_JP_日本
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_1
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_2
+      - 🇨🇦_CA_加拿大_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇯🇵_JP_日本
-      - 🇹🇼_TW_台湾
-      - 🇺🇸_US_美国_1
-      - 🇫🇷_FR_法国
-      - 🇸🇬_SG_新加坡
-      - 🇭🇰_HK_香港
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾
-      - 🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
       - 🇨🇳_CN_中国
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇯🇵_JP_日本
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_1
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_2
+      - 🇨🇦_CA_加拿大_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇯🇵_JP_日本
-      - 🇹🇼_TW_台湾
-      - 🇺🇸_US_美国_1
-      - 🇫🇷_FR_法国
-      - 🇸🇬_SG_新加坡
-      - 🇭🇰_HK_香港
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾
-      - 🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
       - 🇨🇳_CN_中国
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇯🇵_JP_日本
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_1
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_2
+      - 🇨🇦_CA_加拿大_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -146,16 +146,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵_JP_日本
-      - 🇹🇼_TW_台湾
-      - 🇺🇸_US_美国_1
-      - 🇫🇷_FR_法国
-      - 🇸🇬_SG_新加坡
-      - 🇭🇰_HK_香港
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾
-      - 🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
       - 🇨🇳_CN_中国
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇯🇵_JP_日本
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_1
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
+      - 🇺🇸_US_美国->🇫🇷_FR_法国_2
+      - 🇨🇦_CA_加拿大_2
 
 rules:
 # 本地/局域网地址
