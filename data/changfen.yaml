@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-02-28 19:00:33
+# 创建时间：2023-03-01 10:01:25
 # 使用模版：V2RaySE 默认模版
 # 节点数量：10
 ####################################
@@ -21,109 +21,109 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"🇯🇵_JP_日本","type":"ss","server":"43.207.165.110","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇭🇰_HK_香港_1","type":"vmess","server":"8.218.145.251","port":52757,"cipher":"auto","uuid":"451d0d8d-6e0b-403c-9fab-937a92f211e2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"http"}
-  - {"name":"🇺🇸_US_美国_1","type":"vmess","server":"103.21.244.195","port":443,"cipher":"auto","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"lg1.trump2023.us"}}}
-  - {"name":"🇺🇸_US_美国->🇫🇷_FR_法国","type":"vmess","server":"lg10.cfcdn1.xyz","port":443,"cipher":"none","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"lg10.cfcdn1.xyz"}}}
-  - {"name":"🇭🇰_HK_香港_2","type":"vmess","server":"8.218.79.195","port":36595,"cipher":"auto","uuid":"e8781ba1-7c16-46a3-a24a-ebb52e83f006","alterId":0,"tls":false,"skip-cert-verify":true,"network":"http"}
-  - {"name":"🇭🇰_HK_香港_3","type":"vmess","server":"8.218.90.70","port":38917,"cipher":"auto","uuid":"b4580cef-9a5b-4866-80b6-8ace5c567498","alterId":0,"tls":false,"skip-cert-verify":true,"network":"http"}
-  - {"name":"🇺🇸_US_美国_2","type":"vmess","server":"cf-lt.sharecentre.online","port":8880,"cipher":"auto","uuid":"e59bd762-dacd-445c-8e2a-e1c5812949cb","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"ssrsub.v10.asuka.buzz"}}}
-  - {"name":"🇬🇧_GB_英国","type":"vmess","server":"gb-ls03.nb1.fr","port":64443,"cipher":"auto","uuid":"cb7001c7-e495-41ac-b942-f25f60523414","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"🇺🇸_US_美国_3","type":"vmess","server":"us-dp.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"🇨🇦_CA_加拿大->🇫🇷_FR_法国","type":"vmess","server":"23.227.38.40","port":443,"cipher":"auto","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"lg10.cfcdn1.xyz"}}}
+  - {"name":"🇺🇸_US_美国","type":"vmess","server":"198.148.116.134","port":22618,"cipher":"auto","uuid":"8b7321e5-d6aa-4d81-8156-b671a3b59067","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵_JP_日本_1","type":"vmess","server":"jp06-vm0.entry.srthdw.art","port":446,"cipher":"auto","uuid":"30e78645-26a4-3703-9705-14584ec57fd3","alterId":1,"tls":false,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"🇧🇿_BZ_伯利兹","type":"vmess","server":"203.30.191.7","port":443,"cipher":"auto","uuid":"c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/AUIKN8AU","headers":{"host":"oplg1.cfcdn2.xyz"}}}
+  - {"name":"🇯🇵_JP_日本_2","type":"vmess","server":"jp01-vm0.entry.srthdw.art","port":448,"cipher":"auto","uuid":"1bc52308-0bd9-30d0-90fd-cef337875d10","alterId":1,"tls":false,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"🇭🇰_HK_香港_1","type":"vmess","server":"8.210.40.15","port":29715,"cipher":"auto","uuid":"ffb7e598-22b4-4868-978a-bdf4533e66ae","alterId":0,"tls":false,"skip-cert-verify":true,"network":"http"}
+  - {"name":"🇨🇦_CA_加拿大","type":"ss","server":"134.195.196.107","port":3306,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇦🇲_AM_亚美尼亚->🇫🇷_FR_法国","type":"vmess","server":"185.162.228.230","port":443,"cipher":"auto","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"lg10.cfcdn1.xyz"}}}
+  - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本","type":"trojan","server":"hn.xiaohouzi.club","port":18433,"udp":true,"password":"0f098bb2-9fad-3cc3-8acf-2a3268c1eb27","sni":"hn.xiaohouzi.club","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_US_美国->🇫🇷_FR_法国","type":"vmess","server":"lg10.cfcdn1.xyz","port":443,"cipher":"auto","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"🇭🇰_HK_香港_2","type":"vmess","server":"8.218.145.251","port":52757,"cipher":"auto","uuid":"451d0d8d-6e0b-403c-9fab-937a92f211e2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"http"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇯🇵_JP_日本
+      - 🇺🇸_US_美国
+      - 🇯🇵_JP_日本_1
+      - 🇧🇿_BZ_伯利兹
+      - 🇯🇵_JP_日本_2
       - 🇭🇰_HK_香港_1
-      - 🇺🇸_US_美国_1
+      - 🇨🇦_CA_加拿大
+      - 🇦🇲_AM_亚美尼亚->🇫🇷_FR_法国
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
       - 🇺🇸_US_美国->🇫🇷_FR_法国
       - 🇭🇰_HK_香港_2
-      - 🇭🇰_HK_香港_3
-      - 🇺🇸_US_美国_2
-      - 🇬🇧_GB_英国
-      - 🇺🇸_US_美国_3
-      - 🇨🇦_CA_加拿大->🇫🇷_FR_法国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵_JP_日本
+      - 🇺🇸_US_美国
+      - 🇯🇵_JP_日本_1
+      - 🇧🇿_BZ_伯利兹
+      - 🇯🇵_JP_日本_2
       - 🇭🇰_HK_香港_1
-      - 🇺🇸_US_美国_1
+      - 🇨🇦_CA_加拿大
+      - 🇦🇲_AM_亚美尼亚->🇫🇷_FR_法国
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
       - 🇺🇸_US_美国->🇫🇷_FR_法国
       - 🇭🇰_HK_香港_2
-      - 🇭🇰_HK_香港_3
-      - 🇺🇸_US_美国_2
-      - 🇬🇧_GB_英国
-      - 🇺🇸_US_美国_3
-      - 🇨🇦_CA_加拿大->🇫🇷_FR_法国
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵_JP_日本
+      - 🇺🇸_US_美国
+      - 🇯🇵_JP_日本_1
+      - 🇧🇿_BZ_伯利兹
+      - 🇯🇵_JP_日本_2
       - 🇭🇰_HK_香港_1
-      - 🇺🇸_US_美国_1
+      - 🇨🇦_CA_加拿大
+      - 🇦🇲_AM_亚美尼亚->🇫🇷_FR_法国
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
       - 🇺🇸_US_美国->🇫🇷_FR_法国
       - 🇭🇰_HK_香港_2
-      - 🇭🇰_HK_香港_3
-      - 🇺🇸_US_美国_2
-      - 🇬🇧_GB_英国
-      - 🇺🇸_US_美国_3
-      - 🇨🇦_CA_加拿大->🇫🇷_FR_法国
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇯🇵_JP_日本
+      - 🇺🇸_US_美国
+      - 🇯🇵_JP_日本_1
+      - 🇧🇿_BZ_伯利兹
+      - 🇯🇵_JP_日本_2
       - 🇭🇰_HK_香港_1
-      - 🇺🇸_US_美国_1
+      - 🇨🇦_CA_加拿大
+      - 🇦🇲_AM_亚美尼亚->🇫🇷_FR_法国
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
       - 🇺🇸_US_美国->🇫🇷_FR_法国
       - 🇭🇰_HK_香港_2
-      - 🇭🇰_HK_香港_3
-      - 🇺🇸_US_美国_2
-      - 🇬🇧_GB_英国
-      - 🇺🇸_US_美国_3
-      - 🇨🇦_CA_加拿大->🇫🇷_FR_法国
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇯🇵_JP_日本
+      - 🇺🇸_US_美国
+      - 🇯🇵_JP_日本_1
+      - 🇧🇿_BZ_伯利兹
+      - 🇯🇵_JP_日本_2
       - 🇭🇰_HK_香港_1
-      - 🇺🇸_US_美国_1
+      - 🇨🇦_CA_加拿大
+      - 🇦🇲_AM_亚美尼亚->🇫🇷_FR_法国
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
       - 🇺🇸_US_美国->🇫🇷_FR_法国
       - 🇭🇰_HK_香港_2
-      - 🇭🇰_HK_香港_3
-      - 🇺🇸_US_美国_2
-      - 🇬🇧_GB_英国
-      - 🇺🇸_US_美国_3
-      - 🇨🇦_CA_加拿大->🇫🇷_FR_法国
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇯🇵_JP_日本
+      - 🇺🇸_US_美国
+      - 🇯🇵_JP_日本_1
+      - 🇧🇿_BZ_伯利兹
+      - 🇯🇵_JP_日本_2
       - 🇭🇰_HK_香港_1
-      - 🇺🇸_US_美国_1
+      - 🇨🇦_CA_加拿大
+      - 🇦🇲_AM_亚美尼亚->🇫🇷_FR_法国
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
       - 🇺🇸_US_美国->🇫🇷_FR_法国
       - 🇭🇰_HK_香港_2
-      - 🇭🇰_HK_香港_3
-      - 🇺🇸_US_美国_2
-      - 🇬🇧_GB_英国
-      - 🇺🇸_US_美国_3
-      - 🇨🇦_CA_加拿大->🇫🇷_FR_法国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -146,16 +146,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵_JP_日本
+      - 🇺🇸_US_美国
+      - 🇯🇵_JP_日本_1
+      - 🇧🇿_BZ_伯利兹
+      - 🇯🇵_JP_日本_2
       - 🇭🇰_HK_香港_1
-      - 🇺🇸_US_美国_1
+      - 🇨🇦_CA_加拿大
+      - 🇦🇲_AM_亚美尼亚->🇫🇷_FR_法国
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
       - 🇺🇸_US_美国->🇫🇷_FR_法国
       - 🇭🇰_HK_香港_2
-      - 🇭🇰_HK_香港_3
-      - 🇺🇸_US_美国_2
-      - 🇬🇧_GB_英国
-      - 🇺🇸_US_美国_3
-      - 🇨🇦_CA_加拿大->🇫🇷_FR_法国
 
 rules:
 # 本地/局域网地址
